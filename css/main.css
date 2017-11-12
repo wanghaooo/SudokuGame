@@ -1,0 +1,176 @@
+html {
+  font-size: 14px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: #eeeeee;
+  font-family: "微软雅黑";
+  user-select: none;
+  max-width: 450px;
+}
+.title {
+  font-size: 18px;
+  max-width: 450px;
+  padding: 1em 42%;
+  margin-bottom: 2rem;
+  background: steelblue;
+  color: white;
+}
+.title h1 {
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+}
+.hidden {
+  display: none;
+}
+.container {
+  padding-left: 5%;
+}
+.container .row > span {
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  width: 10%;
+  height: 24px;
+  line-height: 24px;
+  border: 1px solid #cccccc;
+  background: white;
+  border-right-width: 0;
+  border-bottom-width: 0;
+}
+.container .row > span.col_right {
+  border-right-width: 2px;
+}
+.container .row > span:last-child {
+  border-right-width: 2px;
+}
+.container .row > span:first-child {
+  border-left-width: 2px;
+}
+.container .row > span.mark1 {
+  background: lightpink;
+}
+.container .row > span.mark1.empty {
+  color: lightpink;
+}
+.container .row > span.mark2 {
+  background: lightgreen;
+}
+.container .row > span.mark2.empty {
+  color: lightgreen;
+}
+.container .row.row_bottom > span {
+  border-bottom-width: 2px;
+}
+.container .row:last-child {
+  border-top-width: 2px;
+}
+.container .row:first-child {
+  border-bottom-width: 2px;
+}
+.container .row .fixed {
+  background: #f3efef;
+}
+.container .row .empty {
+  color: white;
+}
+.container .row .error {
+  background: #ef2d2d !important;
+  color: white !important;
+}
+.container .row .error.empty {
+  color: #ef2d2d !important;
+}
+.popup-num {
+  position: absolute;
+  padding-left: 5%;
+  padding-left: 0;
+}
+.popup-num .row > span {
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  width: 10%;
+  height: 24px;
+  line-height: 24px;
+  border: 1px solid #cccccc;
+  background: white;
+  border-right-width: 0;
+  border-bottom-width: 0;
+}
+.popup-num .row > span.col_right {
+  border-right-width: 2px;
+}
+.popup-num .row > span:last-child {
+  border-right-width: 2px;
+}
+.popup-num .row > span:first-child {
+  border-left-width: 2px;
+}
+.popup-num .row > span.mark1 {
+  background: lightpink;
+}
+.popup-num .row > span.mark1.empty {
+  color: lightpink;
+}
+.popup-num .row > span.mark2 {
+  background: lightgreen;
+}
+.popup-num .row > span.mark2.empty {
+  color: lightgreen;
+}
+.popup-num .row.row_bottom > span {
+  border-bottom-width: 2px;
+}
+.popup-num .row:last-child {
+  border-top-width: 2px;
+}
+.popup-num .row:first-child {
+  border-bottom-width: 2px;
+}
+.popup-num .row .fixed {
+  background: #f3efef;
+}
+.popup-num .row .empty {
+  color: white;
+}
+.popup-num .row .error {
+  background: #ef2d2d !important;
+  color: white !important;
+}
+.popup-num .row .error.empty {
+  color: #ef2d2d !important;
+}
+.popup-num .row > span {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+}
+.dashboard {
+  max-width: 450px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 1rem 0;
+  background: steelblue;
+  box-sizing: border-box;
+  height: 3rem;
+}
+.dashboard .buttons {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.dashboard .buttons button {
+  float: left;
+  width: 25%;
+  height: 3rem;
+  font-size: 1.3rem;
+  color: white;
+  border: 1px solid #cccccc;
+  background: transparent;
+}
